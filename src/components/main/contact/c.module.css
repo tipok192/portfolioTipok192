@@ -1,0 +1,154 @@
+.body{
+display: block;
+justify-content: center;
+}
+.bigBox{
+background-color: rgb(55, 55, 55);
+display: flex;
+padding-left: 100px;
+padding-right: 50px;
+padding-top: 10px;
+justify-content: space-between;
+align-items: center;
+}
+.gic{
+background-color: rgb(71, 71, 71);
+width: 90%;
+height: 5px;
+}
+.gicBox{
+background-color: rgb(55, 55, 55);
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 32px;
+padding-bottom: 32px;
+}
+.box{
+display: flex;
+}
+.div{
+    display: flex;
+    justify-content: start;
+}
+.textarea{
+  background-color: rgb(55,55,55);
+  border: 2px solid rgb(32, 32, 32);
+  color: white;
+  transition: 0.5s;
+
+}
+.input{
+    background-color: rgb(55,55,55);
+    border: 2px solid rgb(32, 32, 32);
+    color: white;
+    transition: 0.5s;
+    width: 180px;
+}
+.smallBox{
+    margin-left: 1px;
+}
+.btn{
+    background-color: rgb(78, 78, 78);
+    border: 2px solid rgb(32, 32, 32);
+    color: white;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: rgb(102, 102, 102);
+    border: 2px solid rgb(77, 77, 77);
+    color: white;
+    transition: 0.5s;
+}
+.btn:active{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(161, 161, 161);
+    color: black;
+    transition: 0.2s;
+}
+.name{
+    margin-right: 50px;
+    color: white;
+    border: 3px solid rgb(55,55,55);
+    transition: 0.5s;
+    padding: 10px;
+}
+.name:hover{
+    margin-right: 50px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 3px solid rgb(37, 37, 37);
+    background-color: rgb(199, 199, 199);
+    transition: 0.3s;
+    padding: 10px;
+
+}
+
+
+@media screen and (max-width: 900px) {
+    .bigBox{
+        background-color: rgb(55, 55, 55);
+        display: block;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+        }
+        .box{
+            display: block;
+        }
+        .div{
+                display: flex;
+                justify-content: center;
+        }
+        .name{
+            margin: 0px;
+            color: white;
+            border: 3px solid rgb(55,55,55);
+            transition: 0.5s;
+            padding: 0px;
+            font-size: 15px;
+        }
+        .name:hover{
+            margin: 0px;
+            color: rgb(0, 0, 0);
+            border-radius: 10px;
+            border: 3px solid rgb(37, 37, 37);
+            background-color: rgb(199, 199, 199);
+            transition: 0.3s;
+            padding: 0px;
+        
+        }
+        .textarea{
+            background-color: rgb(55,55,55);
+            border: 2px solid rgb(32, 32, 32);
+            color: white;
+            transition: 0.5s;
+          max-width: 90%;
+          
+          padding: 0px;
+          margin-top: 5px;
+
+          }
+          .input{
+              background-color: rgb(55,55,55);
+              border: 2px solid rgb(32, 32, 32);
+              color: white;
+              transition: 0.5s;
+              width: 90%;
+              padding: 0px;
+              margin-top: 5px;
+
+          }
+          .inpbox{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+          }
+          .btn{
+            background-color: rgb(78, 78, 78);
+            border: 2px solid rgb(32, 32, 32);
+            color: white;
+            transition: 0.5s;
+            margin-top: 10px;
+        }
+        }
